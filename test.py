@@ -21,10 +21,10 @@ class TestSum(unittest.TestCase):
         self.assertEqual(result, 300)
     def test3(self):
         """
-        Test case to muktiply two numbers
+        Test case to multiply two numbers
         """
         
-        result = multi(20,30)
+        result = multi(20,10)
         self.assertEqual(result, 200)
     def test4(self):
         """
