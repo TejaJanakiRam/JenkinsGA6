@@ -6,9 +6,15 @@ pipeline {
                 git 'https://github.com/TejaJanakiRam/JenkinsGA6.git'
             }
         }
-        stage('Permissions'){
+        stage('Permissions1'){
             steps{
                 sh "chmod u+x multi.py"
+
+            }
+        }
+        stage('Permissions2'){
+            steps{
+
                 sh "chmod u+x test.py"
             }
         }
